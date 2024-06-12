@@ -1,0 +1,49 @@
+﻿@using OgrenciMvcWebProjesi.Models.EntityFrameWork
+@model List<TBLOGRENCILER>
+@{
+    ViewBag.Title = "OgrenciIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    #ogrındex {
+        font-family: 'Microsoft Sans Serif';
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    #kısayol {
+        border: 3px solid grey;
+    }
+</style>
+
+<table class="table table-bordered" id="ogrındex">
+    <tr style="border:3px solid grey;">
+
+        <td style="color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">ÖĞRENCİ ID</td>
+        <td style="color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">ADI</td>
+        <td style="color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">SOYADI</td>
+        <td style="color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">FOTOĞRAF</td>
+        <td style=" color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">CİNSİYET</td>
+        <td style=" color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">KULÜP</td>
+    </tr>
+    <tbody id="kısayol">
+
+        @foreach (var ogr in Model)
+        {
+            <tr style="border:3px solid grey;">
+                <td style=";border:3px solid grey;"> @ogr.OGRID</td>
+                <td style="border:3px solid grey;">@ogr.OGRAD</td>
+                <td style="border:3px solid grey;">@ogr.OGRSOYAD</td>
+
+                <td style="border:3px solid grey;">@ogr.OGRFOTOGRAF</td>
+                <td style="border:3px solid grey;" >@ogr.OGRCINSIYET</td>
+                <td>@ogr.OGRKULUP</td>
+
+
+            </tr>
+
+        }
+    </tbody>
+
+</table>
+

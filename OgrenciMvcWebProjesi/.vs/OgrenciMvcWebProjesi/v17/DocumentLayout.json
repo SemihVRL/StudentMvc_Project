@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\semih\\source\\repos\\OgrenciMvcWebProjesi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AB6FEAF-45D5-4921-A9DE-F59F9E488AA5}|OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi.csproj|c:\\users\\semih\\source\\repos\\ogrencimvcwebprojesi\\ogrencimvcwebprojesi\\views\\\u0130letisim\\\u0130letisimindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AB6FEAF-45D5-4921-A9DE-F59F9E488AA5}|OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi.csproj|solutionrelative:ogrencimvcwebprojesi\\views\\\u0130letisim\\\u0130letisimindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AB6FEAF-45D5-4921-A9DE-F59F9E488AA5}|OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi.csproj|c:\\users\\semih\\source\\repos\\ogrencimvcwebprojesi\\ogrencimvcwebprojesi\\controllers\\anasayfacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AB6FEAF-45D5-4921-A9DE-F59F9E488AA5}|OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi.csproj|solutionrelative:ogrencimvcwebprojesi\\controllers\\anasayfacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AB6FEAF-45D5-4921-A9DE-F59F9E488AA5}|OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi.csproj|c:\\users\\semih\\source\\repos\\ogrencimvcwebprojesi\\ogrencimvcwebprojesi\\views\\anasayfa\\anasayfa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AB6FEAF-45D5-4921-A9DE-F59F9E488AA5}|OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi.csproj|solutionrelative:ogrencimvcwebprojesi\\views\\anasayfa\\anasayfa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u0130letisimIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\semih\\source\\repos\\OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi\\Views\\\u0130letisim\\\u0130letisimIndex.cshtml",
+              "RelativeDocumentMoniker": "OgrenciMvcWebProjesi\\Views\\\u0130letisim\\\u0130letisimIndex.cshtml",
+              "ToolTip": "C:\\Users\\semih\\source\\repos\\OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi\\Views\\\u0130letisim\\\u0130letisimIndex.cshtml",
+              "RelativeToolTip": "OgrenciMvcWebProjesi\\Views\\\u0130letisim\\\u0130letisimIndex.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T22:33:40.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnaSayfa.cshtml",
+              "DocumentMoniker": "C:\\Users\\semih\\source\\repos\\OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi\\Views\\AnaSayfa\\AnaSayfa.cshtml",
+              "RelativeDocumentMoniker": "OgrenciMvcWebProjesi\\Views\\AnaSayfa\\AnaSayfa.cshtml",
+              "ToolTip": "C:\\Users\\semih\\source\\repos\\OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi\\Views\\AnaSayfa\\AnaSayfa.cshtml",
+              "RelativeToolTip": "OgrenciMvcWebProjesi\\Views\\AnaSayfa\\AnaSayfa.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T22:32:48.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnaSayfaController.cs",
+              "DocumentMoniker": "C:\\Users\\semih\\source\\repos\\OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi\\Controllers\\AnaSayfaController.cs",
+              "RelativeDocumentMoniker": "OgrenciMvcWebProjesi\\Controllers\\AnaSayfaController.cs",
+              "ToolTip": "C:\\Users\\semih\\source\\repos\\OgrenciMvcWebProjesi\\OgrenciMvcWebProjesi\\Controllers\\AnaSayfaController.cs",
+              "RelativeToolTip": "OgrenciMvcWebProjesi\\Controllers\\AnaSayfaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T22:32:44.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

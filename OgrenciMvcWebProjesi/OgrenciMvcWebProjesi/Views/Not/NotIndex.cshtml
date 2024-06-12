@@ -1,0 +1,59 @@
+﻿@using OgrenciMvcWebProjesi.Models.EntityFrameWork
+@model List<TBLNOTLAR>
+@{
+    ViewBag.Title = "NotIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    #notındex {
+        font-family: 'Microsoft Sans Serif';
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    #kısayol {
+        border: 3px solid grey;
+    }
+</style>
+
+<table class="table table-bordered" id="notındex">
+    <tr style="border:3px solid grey;">
+        <td style="color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">ÖĞRENCİ ID</td>
+        <td style="color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">DERS ID</td>
+        <td style="color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">NOT ID</td>
+        <td style="color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">SINAV 1</td>
+        <td style="color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">SINAV 2</td>
+        <td style="color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">SINAV 3</td>
+        <td style=" color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">ORTALAMA</td>
+        <td style=" color: #197897; font-weight: bold; text-decoration: underline; border: 3px solid grey;">DURUM</td>
+    </tr>
+    <tbody id="kısayol">
+
+        @foreach (var not in Model)
+        {
+            <tr style="border:3px solid grey;">
+                <td style="border:3px solid grey;">@not.OGRID</td>
+                <td style="border:3px solid grey;">@not.DERSID</td>
+
+                <td style="border:3px solid grey;">@not.NOTID</td>
+
+
+
+
+                <td style="border:3px solid grey;">@not.SINAV1</td>
+
+                <td style="border:3px solid grey;">@not.SINAV2</td>
+                <td style="border:3px solid grey;">@not.SINAV3</td>
+                <td style="border:3px solid grey;">@not.ORTALAMA</td>
+                <td style="border:3px solid grey;">@not.DURUM</td>
+
+
+
+            </tr>
+
+        }
+    </tbody>
+
+</table>
+
